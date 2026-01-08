@@ -1,0 +1,38 @@
+# Ignore NIfTI medical imaging data
+*.nii
+*.nii.gz
+
+# Ignore image outputs
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Ignore Slurm output and error files
+*.out
+*.err
+
+# Ignore checkpoints, logs, cache, and temp files
+checkpoints/
+logs/
+cache/
+__pycache__/
+*.pt
+*.pth
+*.npy
+*.npz
+*.tmp
+*.swp
+.DS_Store
+
+# Do not ignore source code, configs, or Slurm job scripts
+!*.py
+!*.sh
+!*.sbatch
+!*.yml
+!*.yaml
+!*.toml
+!*.md
+!*.txt
+!*.json
